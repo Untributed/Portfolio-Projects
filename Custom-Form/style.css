@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg,cyan 45%, pink 55% );
+}
+
+.box{
+    position: relative;
+    width: 380px;
+    height: 600px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background:white;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.box form h1{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.box form .inputBox{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+
+.box form .inputBox input{
+    width: 280px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.links{
+    position: relative;
+    left: 180px;
+    top: -10px;
+    font-size: 14px;
+}
+
+.links2{
+    position: relative;
+    top:275px;
+    right: -115px;
+    font-size: 14px;
+}
+
+#submit{
+    height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,#87FDF9, #C958F9, #FF7FF3);
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+}
+
+.email-span{
+    position: relative;
+    top: -42px;
+}
+
+.password-span{
+    position: relative;
+    top: -42px;
+}
+
+#password::placeholder{
+    position: relative;
+    top: -2px;
+}
+
+#email::placeholder{
+    position: relative;
+    top: -2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    inline-size: 65px;
+    position: relative;
+    bottom: -40px;
+  }
+
+  .fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram{
+    background-image: linear-gradient(45deg, #FF9225, #FF79FF, #7A7FFF);
+    color: white;
+  }
+
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+  }
