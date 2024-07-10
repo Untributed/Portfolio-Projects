@@ -1,3 +1,3 @@
 # Portfolio-Projects
-Here is my portfolio with projects that I've made on my own<br>
+My own portfolio with projects i have worked on by myself.<br>
 -Login Form
