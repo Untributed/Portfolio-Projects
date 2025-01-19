@@ -1,1 +1,2 @@
-My own projects that i have worked on alone.
+My personal Portfolio of projects.
+-By Yoannis Getov
