@@ -1,2 +1,1 @@
-My personal Portfolio of projects.
--By Yoannis Getov
+Portfolio Projects that i have worked on my own.
